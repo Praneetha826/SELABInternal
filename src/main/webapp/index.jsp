@@ -2,6 +2,11 @@
 <html>
 <head>
     <title>Metro Train Booking</title>
+    <style>
+    h1{
+    color:blue;
+    }
+    </style>
 </head>
 <body>
     <h1>Welcome to the Metro Train Booking</h1>
