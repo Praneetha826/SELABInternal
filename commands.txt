@@ -1,0 +1,9 @@
+1.minikube start
+
+2.kubectl create deployment nginx-deploy --image=nginx
+
+3.kubectl get pods
+
+4.kubectl expose deployment nginx-deploy --type=NodePort --port=80 --name=nginx-service
+
+5.minikube service nginx-service --url
