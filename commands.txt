@@ -1,4 +1,4 @@
-1.minikube start --image-repository=registry.k8s.io
+1. minikube start --image-mirror-country=cn
 
 2.kubectl create deployment nginx-deploy --image=nginx
 
