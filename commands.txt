@@ -1,7 +1,4 @@
-
-
-
-1.minikube start
+1.minikube start --image-repository=registry.k8s.io
 
 2.kubectl create deployment nginx-deploy --image=nginx
 
@@ -10,7 +7,3 @@
 4.kubectl expose deployment nginx-deploy --type=NodePort --port=80 --name=nginx-service
 
 5.minikube service nginx-service --url
-
-
-
-https://chatgpt.com/share/69267980-8968-8000-9382-9e5eda1294b4
